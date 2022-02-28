@@ -27,6 +27,16 @@ def main():
             else:
                 music.music_stop()
 
+        elif key == "w" or 'W' == key:
+            flag_bgm = not flag_bgm
+            if flag_bgm is True:
+                music.background_music('./musics/crabrave.mp3')
+            else:
+                music.music_stop()
+        elif key == "t" or 'T' == key:
+            words = "crab crab crab"
+            tts.say(words)
+
         elif key == "t" or 'T' == key:
             words = "crab crab crab"
             tts.say(words)
