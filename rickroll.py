@@ -7,6 +7,7 @@ tts = TTS()
 manual = '''
 Input key to call the function!
     q: Play rickroll
+    w: Play crabrave
     t: Text to Speech
 '''
 
